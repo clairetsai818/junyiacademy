@@ -10,14 +10,12 @@ int main() {
     for (int i = 1;i <= input;i++) {
         if (i % 15 == 0) {
             cnt ++;
-            cout << i << " ";
         }
         else if ((i % 5 == 0) || (i % 3 ==0)) {
             continue;
         }
         else {
             cnt++;
-            cout << i << " ";
         }
     }
     cout << cnt;
